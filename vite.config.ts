@@ -4,6 +4,7 @@ import {viteMockServe} from "vite-plugin-mock";
 import vueJsx from '@vitejs/plugin-vue-jsx'
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/finyou/',
   plugins: [vue(),
     viteMockServe({
 			mockPath: "src/http/mock",
